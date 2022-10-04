@@ -2,12 +2,27 @@
 /* * {
   background-color:rgb(81, 81, 81)
 } */
+/* Style the header */
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
 body {
   background-color:rgb(81, 81, 81);
   font-family: 'Courier New', Courier, monospace;
-}
-footer {
-  text-align: center;
 }
 h1 {
   border: 1px solid;
@@ -17,11 +32,17 @@ h1 {
   background-color: aqua;
   border-radius: 5px;
 }
-footer {
-  background-color: aqua;
+links {
+  display: flex;
+  bottom: 0;
 }
 #profileCard {
-  display: ;
+  position: fixed;
+  display: flex;
+  bottom: 3%;
+  right: 0px;
+  margin-right: 5px;
+  width: 300px;
   background-color: aqua;
   border: 1px solid black;
   border-radius: 5px;
@@ -42,7 +63,17 @@ footer {
 #headers{
   text-align: center;
 }
-#profileimg {
+footer {
+  justify-content: flex-end;
+  display: flexbox;
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#profileImg {
   width: 20%;
 }
 #wilhelmScream {

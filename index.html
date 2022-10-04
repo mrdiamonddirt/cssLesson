@@ -13,7 +13,7 @@
       <h1><u>About Me</u><br />RowDog<br />The Aspiring Full Stack Developer</h1>
     </div>
     <div id="profileCard">
-      <img id="profileimg" src="image/profile.png" alt="my profile pic" />
+      <img id="profileImg" src="image/profile.png" alt="my profile pic" />
       <p>Name: Rowan Wood<br>Pseudonym: RowDog</p>
     </div>
     <div id="secondDiv">
@@ -117,11 +117,12 @@
         width="338"
         height="602"
         src="https://www.youtube.com/embed/95mTGGfwZug"
-        title="Onupdate(scream) screaming whelm everytime I type in visual studio"
+        title="Onupdate(scream) screaming whelm every time I type in visual studio"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
+      <div id="wilhelmScream">
     <h5>Start Of The Form</h5>
     <!-- Form which will send a GET request to the current URL -->
     <form method="get">
@@ -131,15 +132,6 @@
       </label>
       <button>Save</button>
     </form>
-
-    <!-- Form which will send a POST request to the current URL -->
-    <!-- <form method="post">
-    <label>Name:
-      <input name="submitted-name" autocomplete="name">
-    </label>
-    <button>Save</button>
-  </form> -->
-
     <!-- Form with fieldset, legend, and label -->
     <form method="post">
       <fieldset>
@@ -150,14 +142,16 @@
         <label><input type="checkbox" name="checkbox" /> Tick Me</label>
       </fieldset>
     </form>
-    <br />
+  </div>
+  <div id="sandbox">
+    <h4 id="headers">sandbox</h4>
     <button id="scream" onclick="document.getElementById('scream').play();">
       Press this button to scream
     </button>
     <br />
-    <textarea id="textTest" name="textTest" rows="5" cols="100">
-this text is in a text area you could but anything you want in here but everytime i update this file in visual studio code it wilhelm Screams at me and yeah i coded it and i could turn it off but after 100's of screams i still find it funny 😊</textarea
-    >
+    <textarea id="textTest" name="textTest" rows="5" cols="100">This text is in a text area you could but anything you want in here but every time i update this file in visual studio code it wilhelm Screams at me and yeah i coded it and i could turn it off but after 100's of screams i still find it funny 😊
+    </textarea>
+  </div>
     <div>
       <iframe
         id="website"
@@ -168,6 +162,7 @@ this text is in a text area you could but anything you want in here but everytim
     </div>
   </body>
   <br />
+  <div>
   <h3>Link to LinkedIN<sup>tm</sup> Post about this Repo/Lesson</h3>
   <iframe
     width="800"
@@ -179,7 +174,8 @@ this text is in a text area you could but anything you want in here but everytim
     title="Embedded post"
   ></iframe>
   <br />
-  <footer>
+  </div>
+  <footer id="footer" class="footer">
     <a
       href="https://github.com/mrdiamonddirt"
       target="_blank"
