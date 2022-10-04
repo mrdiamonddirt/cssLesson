@@ -1,6 +1,55 @@
+/* changes css on whole page */
+/* * {
+  background-color:rgb(81, 81, 81)
+} */
+body {
+  background-color:rgb(81, 81, 81);
+  font-family: 'Courier New', Courier, monospace;
+}
+footer {
+  text-align: center;
+}
+h1 {
+  border: 1px solid;
+  border-color: black;
+  /* font-size: 10px; */
+  text-align: center;
+  background-color: aqua;
+  border-radius: 5px;
+}
+footer {
+  background-color: aqua;
+}
+#profileCard {
+  display: ;
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+#website {
+  border-radius: 5px;
+  border: 2px solid rgb(20, 39, 211);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 500px;
+}
+#headers{
+  text-align: center;
+}
+#profileimg {
+  width: 20%;
+}
 #wilhelmScream {
   border: 1px solid rgba(59, 57, 57, 0.356);
   border-radius: 5px;
+  background-color: blueviolet;
+  padding: 5px;
 }
 #scream {
   display: block;
@@ -21,33 +70,11 @@
   background-color: rgba(43, 43, 43, 0.727);
   color: white;
 }
-footer {
-  text-align: center;
-}
-h1 {
-  border: 5px;
-  border-color: black;
-}
-body {
-  background-color: rgb(21, 229, 215);
-}
-footer {
-  background-color: aqua;
-}
-#website {
+#forthDiv {
+  margin-top: 10px;
+  display: block;
+  margin: auto;
+  border: 1px solid rgba(59, 57, 57, 0.356);
   border-radius: 5px;
-  border: 2px solid rgb(20, 39, 211);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 500px;
-}
-#profileimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 13px;
-  width: 20%;
-  object-fit: cover;
+  background-color: rgba(255, 255, 255, 0.757);
 }
