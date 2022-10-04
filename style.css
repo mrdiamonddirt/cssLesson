@@ -1,0 +1,53 @@
+#wilhelmScream {
+  border: 1px solid rgba(59, 57, 57, 0.356);
+  border-radius: 5px;
+}
+#scream {
+  display: block;
+  margin: auto;
+}
+#secondDiv {
+  display: block;
+  margin: auto;
+  border: 1px solid rgba(59, 57, 57, 0.356);
+  border-radius: 5px;
+  background-color: rgb(31, 223, 111);
+}
+#thirdDiv {
+  display: block;
+  margin: auto;
+  border: 1px solid rgba(59, 57, 57, 0.356);
+  border-radius: 5px;
+  background-color: rgba(43, 43, 43, 0.727);
+  color: white;
+}
+footer {
+  text-align: center;
+}
+h1 {
+  border: 5px;
+  border-color: black;
+}
+body {
+  background-color: rgb(21, 229, 215);
+}
+footer {
+  background-color: aqua;
+}
+#website {
+  border-radius: 5px;
+  border: 2px solid rgb(20, 39, 211);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 500px;
+}
+#profileimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 13px;
+  width: 20%;
+  object-fit: cover;
+}
