@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+@font-face{
+  font-family: "outrunFuture";
+  src: url("fonts/Outrunfuture.otf")
+}
 :root {
   --navy: rgb(6, 40, 61); /* var(--Navy)  */
   --blue: rgb(37, 109, 133);
@@ -8,6 +12,7 @@
   --winter: rgb(223, 246, 255);
   --pink: rgba(213, 13, 237, 1);
   --darkblue: rgba(0, 3, 48, 1);
+  --gradient: background: linear-gradient(90deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);;
 }
 body {
   margin: 0;
@@ -17,14 +22,17 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 .topheader {
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
   margin: 0;
   display: flex;
   position: fixed;
   width: 100vw;
-  height: 150px;
+  min-height: min-content;
+  /* height: max-content min-content; */
+  /* max-height: 100%; */
   border: 1px solid var(--pink);
-  ?border-color: var(--navy);
+  /* border-color: var(--navy); */
   /* font-size: 10px; */
   text-align: center;
   background-color: var(--darkblue);
@@ -34,6 +42,8 @@ body {
   background-size: contain;
   text-align: center;
   z-index: 9;
+  font-family: outrunFuture;
+  color: white;
 }
 #profileCard {
   position: fixed;
