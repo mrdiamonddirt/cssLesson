@@ -6,6 +6,8 @@
   --blue: rgb(37, 109, 133);
   --cold: rgb(71, 181, 255);
   --winter: rgb(223, 246, 255);
+  --pink: rgba(213, 13, 237, 1);
+  --darkblue: rgba(0, 3, 48, 1);
 }
 body {
   margin: 0;
@@ -19,17 +21,17 @@ body {
   margin: 0;
   display: flex;
   position: fixed;
-  width: 100%;
-  border: 1px solid var(--navy);
-  border-color: var(--navy);
+  width: 100vw;
+  height: 150px;
+  border: 1px solid var(--pink);
+  ?border-color: var(--navy);
   /* font-size: 10px; */
   text-align: center;
-  /* background-color: var(--cold); */
-  background-image: url("/image/retro-wave.png");
-  background-position: center;
+  background-color: var(--darkblue);
+  background-image: url("image/retro-wave.png");
+  background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
-  border-radius: 5px;
   text-align: center;
   z-index: 9;
 }
